@@ -3,7 +3,8 @@ import noUiSlider from "nouislider";
 
 @Component({
   selector: "app-index",
-  templateUrl: "index.component.html"
+  templateUrl: "index.component.html",
+  styleUrls: ['./index.component.scss']
 })
 export class IndexComponent implements OnInit, OnDestroy {
   isCollapsed = true;
@@ -13,6 +14,7 @@ export class IndexComponent implements OnInit, OnDestroy {
   date = new Date();
   pagination = 3;
   pagination1 = 1;
+  a=19;
   constructor() {}
   scrollToDownload(element: any) {
     element.scrollIntoView({ behavior: "smooth" });
