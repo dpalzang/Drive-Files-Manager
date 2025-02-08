@@ -32,6 +32,13 @@
     justify-content: space-between;
   }
 }
+.navbar-nav .nav-item {
+  margin-right: 10px; // Adds horizontal spacing to the right of each item
+}
+
+.navbar-nav .nav-item:last-child {
+  margin-right: 0; // Ensures no extra space on the last item
+}
 
 // Navbar brand
 //
